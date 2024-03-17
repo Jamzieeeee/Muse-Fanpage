@@ -1,0 +1,22 @@
+/*Header*/
+header{
+    background-color: black;
+    color: #ffffff;
+}
+
+/*Nav*/
+nav{
+    background-color: darkred;
+    color: #ffffff;
+}
+
+/*Main Content*/
+main{
+    background-color: lightgray;
+}
+
+/*Footer*/
+footer{
+    background-color: black;
+    color: #ffffff;
+}
