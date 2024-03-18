@@ -42,6 +42,7 @@ nav > a:hover {
 /* Main Content */
 main {
     background-color: lightgray;
+    margin-top: 64px;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
