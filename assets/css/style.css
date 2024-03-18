@@ -29,16 +29,12 @@ header {
     text-align: center;
 }
 
-/* Nav */
-nav {
-    display: inline;
-}
-
-nav > a {
+header a {
     text-decoration: none;
     color: inherit;
 }
 
+/* Nav */
 nav > a:hover {
     background-color: darkred;
 }
