@@ -48,7 +48,16 @@ main {
 }
 
 /* Footer */
-footer {
+#social-networks {
     background-color: black;
-    color: #ffffff;
+    text-align: right;
+    padding: 10px 0;
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 200%;
+    color: white;
 }
