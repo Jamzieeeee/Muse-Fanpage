@@ -29,6 +29,14 @@ header {
     text-align: center;
 }
 
+#logo {
+    display: inline-flex;
+    letter-spacing: 2px;
+    line-height: 1;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+}
+
 header a {
     text-decoration: none;
     color: inherit;
@@ -51,10 +59,11 @@ main {
 #social-networks {
     background-color: black;
     text-align: right;
-    padding: 10px 0;
+    padding: 5px;
     display: flex;
     justify-content: right;
     list-style-type: none;
+    gap: 5px;
 }
 
 #social-networks i {
