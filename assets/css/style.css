@@ -49,10 +49,16 @@ nav > a:hover {
 
 /* Main Content */
 main {
-    background-color: lightgray;
     margin-top: 64px;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+}
+
+/* Hero Section */
+#hero {
+    height: 1080px;
+    width: 100%;
+    background: url(../images/muse-matthew-bellamy-live.jpg) no-repeat 70% center/cover;
 }
 
 /* Footer */
