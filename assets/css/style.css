@@ -18,6 +18,11 @@ body {
     font-family: "Roboto Mono", monospace;
 }
 
+p {
+    color: black;
+    padding: 10px;
+}
+
 /* Header */
 header {
     background-color: black;
@@ -59,6 +64,23 @@ main {
     height: 1080px;
     width: 100%;
     background: url(../images/muse-matthew-bellamy-live.jpg) no-repeat 70% center/cover;
+    position: relative;
+}
+
+/* Intro Section */
+#cover-text {
+    background-color: rgba(190, 190, 190, 0.7);
+    padding: 10px;
+    margin: 30px;
+    position: absolute;
+    box-shadow: 0 2px 2px #3a3a3a;
+}
+
+#intro-image {
+    border-radius: 10px;
+    height: 210px;
+    float: left;
+    margin: 10px;
 }
 
 /* Footer */
