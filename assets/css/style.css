@@ -48,7 +48,7 @@ header a {
 }
 
 /* Nav */
-nav > a:hover {
+nav>a:hover {
     background-color: darkred;
 }
 
@@ -72,11 +72,15 @@ main {
     background-color: #fbfbfb;
 }
 
+#intro-image-span {
+    display: flex;
+    justify-content: center;
+}
+
 #intro-image {
-    border-radius: 10px;
-    height: 210px;
-    float: left;
-    margin: 10px;
+    width: 100%;
+    max-width: 640px;
+    box-shadow: 2px 2px 4px #3a3a3a;
 }
 
 /* Footer */
@@ -93,4 +97,19 @@ main {
 #social-networks i {
     font-size: 200%;
     color: white;
+}
+
+/* Media query: Tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Intro section */
+    #intro-image-span {
+        display: block;
+    }
+
+    #intro-image {
+        width: 320px;
+        float: left;
+        margin: 10px;
+    }
 }
