@@ -68,12 +68,8 @@ main {
 }
 
 /* Intro Section */
-#cover-text {
-    background-color: rgba(190, 190, 190, 0.7);
-    padding: 10px;
-    margin: 30px;
-    position: absolute;
-    box-shadow: 0 2px 2px #3a3a3a;
+#intro {
+    background-color: #fbfbfb;
 }
 
 #intro-image {
